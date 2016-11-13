@@ -70,7 +70,7 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #DADBD6;
+    border-bottom: 20px solid #222222;
 }
 
 .footer-container,
@@ -81,16 +81,33 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: #DADBD6;
+    background: #222222;
 }
 
 .title {
-    color: #494949;
+    color: white;
 }
 
 /* ==============
     MOBILE: Menu
    ============== */
+
+.logo img {
+    width:5%;
+    height:5%;
+    position:relative;
+    float:left;
+    left:450px;
+    top:12px;
+}
+
+.logo h5{
+    color:white;
+    font-weight: bold;
+    position:absolute;
+    top:30px;
+    left:742px;
+}
 
 nav ul {
     margin: 0;
@@ -107,13 +124,13 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: #494949;
+    color: white;
     background:;
 }
 
 nav a:hover,
 nav a:visited {
-    color: #494949;
+    color: white;
 }
 
 nav a:hover {
@@ -123,8 +140,23 @@ nav a:hover {
 /* ==============
     MOBILE: Main
    ============== */
+.mountain h1{
+    position: absolute;
+    left:650px;
+    top:325px;
+}
+
 .mountain img{
     width:100%;
+    position:absolute;
+}
+.mountainicon img {
+    width:10%;
+    height:10%;
+    position:relative;
+    float:left;
+    left:700px;
+    top:100px;
 }
 
 .main {
