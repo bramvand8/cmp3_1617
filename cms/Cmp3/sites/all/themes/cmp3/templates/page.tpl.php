@@ -73,28 +73,31 @@
  */
 ?>
 
+
 <div class="top-bar">
   <div class="top-bar-left">
     <ul class="menu">
-      <li class="menu-text">Let's template</li>
+      <li class="menu-text"></li>
     </ul>
   </div>
   <div class="top-bar-right">
     <?php print render($page['navigation']); ?>
+
   </div>
 </div>
 
-<div id="header" class="hero callout large primary" style="background-image: url('img/header.jpg')">
+<div id="header" class="hero callout large primary" style="background-image: url('/img/landscape.png')">
   <div class="row column text-center">
-    <h1><?php echo foundation_get_title();?></h1>
+    <h1></h1>
   </div>
 </div>
 <div class="row" id="content">
   <div class="medium-8 columns">
-    <?php print render($page['highlighted']); ?>
-    <?php print render($page['content']); ?>
+    <?php print render($page['highlighted']);?>
+    <?php print render($page['content']);?>
 
-    <div class="blog-post">
+
+    <!-- <div class="blog-post">
       <h3>Awesome blog post title
         <small>3/6/2016</small>
       </h3>
@@ -161,14 +164,13 @@
           <li><a href="#">Comments: 3</a></li>
         </ul>
       </div>
-    </div>
-  </div>
+    </div> -->
+ <!-- </div>
   <div class="medium-3 columns sticky-container" data-sticky-container="" style="height: 318px;">
     <div class="sticky is-anchored is-at-top" data-sticky="wnvizo-sticky" data-anchor="content"
          data-resize="gzn37n-sticky" style="max-width: 285px; margin-top: 0px; top: 0px; bottom: 1966px;"
          data-events="resize">
 
-      <?php print render($page['sidebar_right']); ?>
 
       <h4>Categories</h4>
       <ul>
@@ -206,7 +208,7 @@
     <h5>Here&rsquo;s your basic grid:</h5>
     <!-- Grid Example -->
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="large-12 columns">
         <div class="primary callout">
           <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
@@ -317,10 +319,11 @@
       <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
     </div>
   </div>
-</div>
+</div> -->
 
 
-  <?php/*
+<<?php /*
+
   <div id="page-wrapper"><div id="page">
 
     <div id="header"><div class="section clearfix">
@@ -338,8 +341,7 @@
               <div id="site-name"><strong>
                 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
               </strong></div>
-            <?php else: /* Use h1 when the content title is empty */ ?>
-<?php/*
+            <?php else: /* Use h1 when the content title is empty  ?>
               <h1 id="site-name">
                 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
               </h1>
@@ -403,3 +405,5 @@
     </div></div> <!-- /.section, /#footer -->
 
   </div></div> <!-- /#page, /#page-wrapper -->
+
+*/

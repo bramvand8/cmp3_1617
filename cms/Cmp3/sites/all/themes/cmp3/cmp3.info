@@ -1,5 +1,5 @@
-name = cmp3 theme
-description = theme voor eindopdracht cmp3
+name = Cmp3 Theme
+description = Theme eindopdracht
 core = 7.x
 
 
@@ -22,11 +22,14 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/main.css
-stylesheets[all][] = css/normalize.min.css
-stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/foundation.min.css
+stylesheets[all][] = css/foundation-icons.css
+stylesheets[all][] = css/app.css
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
 
+scripts[] = js/vendor/foundation.js
+scripts[] = js/vendor/what-input.js
+scripts[] = js/app.js

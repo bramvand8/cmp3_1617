@@ -22,20 +22,15 @@ body.overlay {
   border-bottom: 1px solid #ffffff;
 }
 #header {
-  background-color: #48a9e4;
-  background-image: -moz-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-  background-image: -ms-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-  background-image: -o-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0779bf), color-stop(1, #48a9e4));
-  background-image: -webkit-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-  background-image: linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-color: #041425;
+
 }
 a {
-  color: #0071B3;
+  color: #31475A;
 }
 a:hover,
 a:focus {
-  color: #018fe2;
+  color: rgba(10, 3, 123, 1) ;
 }
 a:active {
   color: #23aeff;
@@ -46,7 +41,7 @@ a:active {
 }
 #page-wrapper,
 #footer-wrapper {
-  background: #292929;
+  background: black;
 }
 .region-header,
 .region-header a,
