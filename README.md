@@ -1,6 +1,11 @@
 # cmp3_1617
-CMP3
 
 Bram Van de Voorde
-bramvand8	
-produce a
+Crossmedia Publishing III
+2016-2017
+Bachelor in de grafische en digitale media
+Multimediaproductie
+proDUCE
+Arteveldehogeschool
+
+Link website: http://dev-bramvand8-cmp3d7.pantheonsite.io/
